@@ -52,23 +52,23 @@ export default function Home() {
             </p>
           </div>
 
-          <div className={`h-2/4 flex justify-center items-center text-white text-3xl gap-3 md:text-2xl transition-transform duration-1000 ${isScrolled ? "scale-125" : undefined}`}>
+          <div className="h-2/4 flex justify-center items-center text-white text-3xl gap-3 md:text-2xl">
             <a
-              className="cursor-pointer duration-300 hover:-translate-y-1 hover:scale-150"
+              className={`cursor-pointer hover:duration-300 hover:-translate-y-1 hover:scale-150 transition-transform duration-1000 ${isScrolled ? "scale-125" : undefined}`}
               href='https://www.linkedin.com/in/joannywerner/'
               target="_blank"
             >
               <FaLinkedin />
             </a>
             <a
-              className="cursor-pointer duration-300 hover:-translate-y-1 hover:scale-150"
+              className={`cursor-pointer hover:duration-300 hover:-translate-y-1 hover:scale-150 transition-transform duration-1000 ${isScrolled ? "scale-125" : undefined}`}
               href='https://github.com/jjwernerm'
               target="_blank"
             >
               <FaGithubSquare />
             </a>
             <a
-              className="cursor-pointer duration-300 hover:-translate-y-1 hover:scale-150"
+              className={`cursor-pointer hover:duration-300 hover:-translate-y-1 hover:scale-150 transition-transform duration-1000 ${isScrolled ? "scale-125" : undefined}`}
               href='https://empty-pyramid-6fd.notion.site/ToolKit-de-Desarrollo-14609741837a80f09961eb50ee7bde6d?pvs=4'
               target="_blank"
             >
