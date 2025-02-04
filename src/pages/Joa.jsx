@@ -1,4 +1,3 @@
-// BuscarEliminar.jsx
 import {
   useState
 } from 'react';
@@ -34,7 +33,7 @@ export default function Joa() {
 
   return (
     <>
-      <div id='joa' className='h-min pt-16 bg-zinc-200 p-4 pb-16'>
+      <div id='joa' className='h-screen pt-16 bg-zinc-200 p-4 pb-6'>
 
         <div className="text-xl font-extrabold font-serif md:text-3xl text-teal-500">
           <p>¡Hola,</p>

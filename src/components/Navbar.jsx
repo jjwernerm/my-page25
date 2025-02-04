@@ -59,7 +59,7 @@ export default function Navbar() {
                 <div className="shrink-0">
                   <img
                     alt="My Logo"
-                    src="https://res.cloudinary.com/dqjnzfsp6/image/upload/v1736362916/my-page25/logo25-joa-navbar.png"
+                    src="https://res.cloudinary.com/dqjnzfsp6/image/upload/my-page25/logo25-joa-navbar.png"
                     className="size-12"
                   />
                 </div>
