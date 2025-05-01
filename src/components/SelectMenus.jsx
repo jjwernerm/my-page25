@@ -17,7 +17,7 @@ const technologySelection = [
   {
     id: 0,
     name: 'Todas las Tecnologías',
-    logo: 'https://res.cloudinary.com/dqjnzfsp6/image/upload/my-page25/logo25-joa-navbar.png',
+    logo: 'https://res.cloudinary.com/dqjnzfsp6/image/upload/my-page25/logo25-joa-zinc.png',
   },
   {
     id: 1,

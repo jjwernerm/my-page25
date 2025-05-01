@@ -19,8 +19,8 @@ import {
 export default function Portfolio() {
 
   return (
-    <div id="portfolio" className="h-screen pt-16 p-4 pb-6 flex flex-col items-center justify-center bg-teal-100">
-      <p className="text-2xl font-extrabold font-serif md:text-3xl text-teal-500">Portafolio</p>
+    <div id="portfolio" className="h-screen pt-16 p-4 pb-6 flex flex-col items-center justify-center bg-yellow-50">
+      <p className="text-2xl font-extrabold font-serif md:text-3xl text-yellow-500">Portafolio</p>
 
       <p
         className="text-center text-zinc-700 my-4">
