@@ -10,7 +10,7 @@ export default function MyRepositories({ selectedTech }) {
     : repositories.filter(repo => repo.techId === selectedTech); // Filtrar por techId
 
   return (
-    <div className="mt-8 text-center text-white">
+    <div className="mt-8 text-center text-white md:grid md:grid-cols-2 md:gap-4 lg:grid lg:grid-cols-4 lg:gap-8">
       {filteredRepositories.length === 0 ? (
         <p>No hay repositorios disponibles para esta tecnología.</p>
       ) : (

@@ -47,8 +47,8 @@ export default function SelectMenus({ setSelectedTech }) {
         setSelectedTech(tech.id); // Actualiza el estado en Challenges.jsx
       }}
     >
-      <div className="relative mt-8">
-        <ListboxButton className="grid w-full cursor-default grid-cols-1 rounded-md bg-white py-1.5 pr-2 pl-3 text-left text-gray-900 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+      <div className="relative mt-8 flex justify-center">
+        <ListboxButton className="grid w-56 cursor-default grid-cols-1 rounded-md bg-white py-1.5 pr-2 pl-3 text-left text-gray-900 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
           <span className="col-start-1 row-start-1 flex items-center gap-3 pr-6">
             <img alt="" src={selected.logo} className="size-5 shrink-0 rounded-full" />
             <span className="block truncate">{selected.name}</span>
@@ -61,7 +61,7 @@ export default function SelectMenus({ setSelectedTech }) {
 
         <ListboxOptions
           transition
-          className="absolute z-10 mt-1 max-h-56 w-full overflow-auto rounded-md bg-white py-1 text-base ring-1 shadow-lg ring-black/5 focus:outline-hidden data-leave:transition data-leave:duration-100 data-leave:ease-in data-closed:data-leave:opacity-0 sm:text-sm"
+          className="absolute z-10 mt-1 max-h-56 overflow-auto rounded-md bg-white py-1 text-base ring-1 shadow-lg ring-black/5 focus:outline-hidden data-leave:transition data-leave:duration-100 data-leave:ease-in data-closed:data-leave:opacity-0 sm:text-sm"
         >
           {technologySelection.map((tech) => (
             <ListboxOption

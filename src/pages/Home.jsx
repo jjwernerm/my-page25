@@ -39,20 +39,20 @@ export default function Home() {
 
           <div className={`h-2/4 flex flex-col justify-end items-center transition-transform duration-1000 ${isScrolled ? "-translate-y-6" : undefined}`}>
             <p
-              className="text-4xl font-black font-mono md:text-6xl text-yellow-100">
+              className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-black font-mono text-yellow-100">
               Joanny Werner
             </p>
             <p
-              className="text-xl font-extrabold font-serif md:text-3xl text-teal-400">
+              className="text-xl md:text-3xl lg:text-4xl xl:text-5xl font-extrabold font-serif text-teal-400">
               Full-Stack Developer
             </p>
             <p
-              className="text-lg font-light italic md:text-2xl text-white">
+              className="text-lg md:text-2xl lg:text-3xl xl:text-4xl font-light italic text-white">
               JavaScript
             </p>
           </div>
 
-          <div className="h-2/4 flex justify-center items-center text-white text-3xl gap-3 md:text-2xl">
+          <div className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl h-2/4 flex justify-center items-center text-white gap-3">
             <a
               className={`cursor-pointer hover:duration-300 hover:-translate-y-1 hover:scale-150 transition-transform duration-1000 ${isScrolled ? "scale-125" : undefined}`}
               href='https://www.linkedin.com/in/joannywerner/'

@@ -39,10 +39,10 @@ export default function FormContact() {
 
       </div>
 
-      <div className="my-4">
+      <div className="my-4 flex justify-center">
         <button
           type="submit"
-          className="block w-full rounded-full bg-teal-400 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-teal-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-400"
+          className="block w-28 rounded-full bg-teal-400 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-teal-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-400"
         >
           Enviar
         </button>

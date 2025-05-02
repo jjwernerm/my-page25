@@ -35,7 +35,7 @@ export default function Joa() {
     <>
       <div id='joa' className='h-screen pt-16 bg-zinc-200 p-4 pb-6'>
 
-        <div className="text-xl font-extrabold font-serif md:text-3xl text-teal-500">
+        <div className="text-xl md:text-3xl lg:text-4xl font-extrabold font-serif text-teal-500">
           <p>¡Hola,</p>
           <p>soy Joanny Werner!</p>
         </div>
@@ -48,16 +48,16 @@ export default function Joa() {
           )
         )}
 
-        <button className="grid grid-cols-2 gap-4">
+        <button className="w-full grid grid-cols-2 gap-4">
           {paragraphs.slice(1).map((paragraph) => (
             <div
               key={paragraph.id}
               onClick={() => handleOpenModal(paragraph.id)} // Pasamos el id a la función
             >
-              <div className="flex flex-col items-center rounded-full outline outline-offset-4 outline-zinc-300 text-white p-4 bg-teal-500">
-                <p>{paragraph.title}</p>
-                <p className="text-lg">{paragraph.icon}</p>
-                <p className="text-xs mt-2">Leer más {'>'}</p>
+              <div className="flex flex-col items-center m-0.5 md:m-8 rounded-full outline outline-offset-4 outline-zinc-300 text-white p-4 bg-teal-500">
+              <p className="md:text-2xl lg:text-4xl">{paragraph.title}</p>
+                <p className="text-lg md:text-2xl lg:text-4xl">{paragraph.icon}</p>
+                <p className="text-xs md:text-base lg:text-xl mt-2">Leer más {'>'}</p>
               </div>
             </div>
           ))}

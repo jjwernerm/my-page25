@@ -20,7 +20,7 @@ export default function Portfolio() {
 
   return (
     <div id="portfolio" className="h-screen pt-16 p-4 pb-6 flex flex-col items-center justify-center bg-yellow-50">
-      <p className="text-2xl font-extrabold font-serif md:text-3xl text-yellow-500">Portafolio</p>
+      <p className="text-2xl font-extrabold font-serif md:text-5xl text-yellow-500">Portafolio</p>
 
       <p
         className="text-center text-zinc-700 my-4">
@@ -34,28 +34,27 @@ export default function Portfolio() {
         pagination={{ clickable: true }}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         loop={true}
-        className="w-full h-full"
+        className="w-full"
       >
         {imgPortfolio.map((port, index) => (
-          <SwiperSlide key={index} className="relative flex items-center justify-center h-full">
+          <SwiperSlide key={index} className="relative flex items-center justify-center w-full p-5 md:p-10 lg:p-16">
             <a href={port.web} target="_blank">
 
               {/* Imagen de fondo desenfocada */}
               <img
                 src={port.img}
                 alt={port.title || 'Imagen del portafolio'}
-                className="absolute inset-0 w-full h-full object-cover blur-sm"
+                className="absolute inset-0 object-cover blur-sm w-full"
               />
 
               {/* Imagen en primer plano */}
-              <div className="relative z-10 flex items-center justify-center h-full">
+              <div className="relative z-10 flex items-center justify-center w-full">
                 <img
                   src={port.img}
                   alt={port.title || 'Imagen del portafolio'}
-                  className="w-60 rounded-lg shadow-lg"
+                  className=""
                 />
               </div>
-              <div>Hola</div>
             </a>
           </SwiperSlide>
         ))}

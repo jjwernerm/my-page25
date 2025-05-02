@@ -20,10 +20,10 @@ export default function Contact() {
   return (
     <>
       <div id='contact' className='h-min pt-16 bg-sky-100'>
-        <p className="text-2xl font-extrabold font-serif md:text-3xl text-teal-400 text-center">
+        <p className="text-2xl font-extrabold font-serif md:text-5xl text-teal-400 text-center">
           Contacto
         </p>
-        <p className="text-center text-zinc-700 my-2">
+        <p className="text-center text-zinc-700 my-2 mx-6">
           Por favor contácteme a través de este formulario y le responderé dentro de las 24 horas.
         </p>
         <p className="text-center text-zinc-700 mt-4">

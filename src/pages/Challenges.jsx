@@ -16,10 +16,10 @@ export default function Challenges() {
 
   return (
     <>
-      <div id='challenges' className='h-min pt-16 bg-zinc-700 p-4'>
+      <div id='challenges' className='h-min pt-16 bg-zinc-800 p-4'>
 
         <p
-          className="text-2xl text-center font-black font-mono md:text-6xl text-yellow-200">
+          className="text-2xl text-center font-black font-mono md:text-5xl text-yellow-200">
           Challenges
         </p>
 
