@@ -1,11 +1,13 @@
-import {
-  useState
-} from 'react';
+import
+  ModalFomContact
+from '../components/ModalFomContact.jsx';
 
 export default function FormContact() {
-
   return (
-    <form action="" method="" className="mx-auto mt-4 max-w-xl sm:mt-20 px-8">
+    <form name="contact" netlify method="POST" className="mx-auto mt-4 max-w-xl sm:mt-20 px-8">
+      <div data-netlify-submission="true">
+        <ModalFomContact />
+      </div>
       <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
 
         <input
