@@ -34,5 +34,5 @@ export const userNavigation = [
   { name: 'Linkedin', href: 'https://www.linkedin.com/in/joannywerner/', icon: <FaLinkedin /> },
   { name: 'Github', href: 'https://github.com/jjwernerm', icon: <FaGithub /> },
   { name: 'Notion', href: 'https://empty-pyramid-6fd.notion.site/ToolKit-de-Desarrollo-14609741837a80f09961eb50ee7bde6d?pvs=4', icon: <SiNotion /> },
-  { name: 'Descargar CV', href: 'https://drive.google.com/file/d/1D6LUxy6Jf_bU7ZhK62MqDn_HrATOVz3m/view?usp=sharing', icon: <SiReaddotcv /> },
+  { name: 'Descargar CV', href: 'https://drive.google.com/file/d/1Oir7oJ3E1Xm1YEXqv7sAkynWaKNge9aA/view?usp=sharing', icon: <SiReaddotcv /> },
 ];
